@@ -1,73 +1,74 @@
+---
 version: '3.1'
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- affirm
-- affirm_people
-- bot_challenge
-- deny
-- deny_people
-- failed_exams
-- goodbye
-- greet
-- mood_great
-- mood_unhappy
-- suicide_confirm
-- suicide_false_alert
-- suicide_intention
-- suicide_reason
-- obesity
-- obesity_okay
-- obesity_not_okay
-- imposter_syndrome
+  - affirm
+  - affirm_people
+  - bot_challenge
+  - deny
+  - deny_people
+  - failed_exams
+  - goodbye
+  - greet
+  - mood_great
+  - mood_unhappy
+  - suicide_confirm
+  - suicide_false_alert
+  - suicide_intention
+  - suicide_reason
+  - obesity
+  - obesity_okay
+  - obesity_not_okay
+  - imposter_syndrome
 responses:
   utter_greet:
-  - text: Hiiiii! How are you?
-  - text: Heyyy! I was waiting to talk to you! :) How are you?
-  - text: Yooo, Nice to finally talk to you! How are things going on?
+    - text: Hiiiii! How are you?
+    - text: Heyyy! I was waiting to talk to you! :) How are you?
+    - text: Yooo, Nice to finally talk to you! How are things going on?
   utter_cheer_up:
-  - text: Are you not feeling well? Or is it something else?
-  - text: What happened? If you are comfortable sharing, I am here to listen.
-  - text: 'Sharing heals things. Can you tell me the reason that you are sad? I really want to help. '
-  - text: That sucks to hear. Any chance that you would want to share? I'd like to listen to understand why you are feeling that way.
+    - text: Are you not feeling well? Or is it something else?
+    - text: What happened? If you are comfortable sharing, I am here to listen.
+    - text: 'Sharing heals things. Can you tell me the reason that you are sad? I really want to help. '
+    - text: That sucks to hear. Any chance that you would want to share? I'd like to listen to understand why you are feeling that way.
   utter_happy:
-  - text: This is nice to hear! I am happy for you. 🥰 \n You can interact and comfort other people through posts. Afterall, happiness increases when shared.
+    - text: This is nice to hear! I am happy for you. 🥰 \n You can interact and comfort other people through posts. Afterall, happiness increases when shared.
   utter_goodbye:
-  - text: Goodbye! Have a great time ahead!
+    - text: Goodbye! Have a great time ahead!
   utter_iamabot:
-  - text: I am somebody who's trying to feel human emotions. A creation of @rsnpj!
+    - text: I am somebody who's trying to feel human emotions. A creation of @rsnpj!
   utter_suicide_inquire_1:
-  - text: Why are you having those feelings?
+    - text: Why are you having those feelings?
   utter_suicide_inquire_2:
-  - text: Please understand that the stupid feelings are taking over your mind. Whatever is the reason, do you think its big enough to leave everything?
+    - text: Please understand that the stupid feelings are taking over your mind. Whatever is the reason, do you think its big enough to leave everything?
   utter_suicide_helplines:
-  - text: Please contact the following. They will help you for sure. 9813476123  or 9840021600 or 1166.
+    - text: Please contact the following. They will help you for sure. 9813476123  or 9840021600 or 1166.
   utter_suicide_help_talk_1:
-  - text: Whatever you are feeling, it shall pass soon. It might seem very big at present but after a couple of years later, it will not matter. I hope you don't take any decisions in a rush.
+    - text: Whatever you are feeling, it shall pass soon. It might seem very big at present but after a couple of years later, it will not matter. I hope you don't take any decisions in a rush.
   utter_failed_exam_help:
-  - text: It sucks and is not the best news but it isn't the worst either. Don't let it sour your heart. Don't let it make you feel like a loser. Do you worry about what people will think about you?
-  - text: I feel terribly sad to hear that but it is not the end of the world. Trust me, you will feel better. Don't worry. You will do best the next time you attempt it. Do you worry about what people will think about you?
+    - text: It sucks and is not the best news but it isn't the worst either. Don't let it sour your heart. Don't let it make you feel like a loser. Do you worry about what people will think about you?
+    - text: I feel terribly sad to hear that but it is not the end of the world. Trust me, you will feel better. Don't worry. You will do best the next time you attempt it. Do you worry about what people will think about you?
   utter_failed_exam_people_yes:
-  - text: Exactly, you need to stop doing it. I know people make a huge deal out of it but you need to live for yourself and for sure you will make it. You might want to listen to this.
+    - text: Exactly, you need to stop doing it. I know people make a huge deal out of it but you need to live for yourself and for sure you will make it. You might want to listen to this.
   utter_failed_exam_people_no:
-  - text: Then, It's great. You should keep it that way. I am sure you will cope up with it. I wish you the best of luck.
+    - text: Then, It's great. You should keep it that way. I am sure you will cope up with it. I wish you the best of luck.
   utter_recommend_song:
-  - text: https://youtu.be/d-diB65scQU
-  - text: https://youtu.be/ZbZSe6N_BXs
+    - text: https://youtu.be/d-diB65scQU
+    - text: https://youtu.be/ZbZSe6N_BXs
   utter_failed_exam_help_tips:
-  - text: Here is what you can do:\nAccept the reason why you failed.\nLearn from what you did wrong.\nEliminate toxic people from your life.\nStart taking action & stop day dreaming.
+    - text: Here is what you can do:\nAccept the reason why you failed.\nLearn from what you did wrong.\nEliminate toxic people from your life.\nStart taking action & stop day dreaming.
   utter_obesity_help_ask:
-  - text: Do you feel like you should work on reducing your weight or do you feel line with however you look?
+    - text: Do you feel like you should work on reducing your weight or do you feel line with however you look?
   utter_obesity_okay:
-  - text: Then, its great. You don't have to worry about how people view you.
+    - text: Then, its great. You don't have to worry about how people view you.
   utter_obesity_okay_quote:
-  - text: Remember this, You might be the sweetest peach on a tree but some people just don't like peaches.
+    - text: Remember this, You might be the sweetest peach on a tree but some people just don't like peaches.
   utter_obesity_not_okay:
-  - text: Then, go for it. Don't procrastinate. Hit the gym. Eat healthy but not too much. It needs commitment and I am sure you will be achieve the looks you are aiming for. 
+    - text: Then, go for it. Don't procrastinate. Hit the gym. Eat healthy but not too much. It needs commitment and I am sure you will be achieve the looks you are aiming for.
   utter_imposter_syndrome_help:
-  - text: You are not alone. You are not a fraud or an imposter. It would help a lot to let go of your inner perfectionist. Don't worry and be kind to yourself.
+    - text: You are not alone. You are not a fraud or an imposter. It would help a lot to let go of your inner perfectionist. Don't worry and be kind to yourself.
 actions:
-- utter_greet
-- utter_suicide_inquire_1
-- utter_suicide_inquire_2
+  - utter_greet
+  - utter_suicide_inquire_1
+  - utter_suicide_inquire_2
