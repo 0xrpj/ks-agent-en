@@ -20,6 +20,7 @@ intents:
 - obesity
 - obesity_okay
 - obesity_not_okay
+- imposter_syndrome
 responses:
   utter_greet:
   - text: Hiiiii! How are you?
