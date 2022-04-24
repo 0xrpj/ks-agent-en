@@ -1,0 +1,202 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: affirm_people
+  examples: |
+    - yes I care about what people think
+    - of course I think peoples opinion matter
+    - I care about peoples opinion
+    - that is exactly what I feel
+    - thats how our society functions
+    - thats how our society judges people
+    - how can I not think about peoples opinions
+- intent: deny_people
+  examples: |
+    - no I dont care about what people think
+    - I dont think peoples opinion matter
+    - I dont care about peoples opinion
+    - no that is not what I feel
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am feeling extremely low
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I feeling a bit sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: suicide_intention
+  examples: |
+    - I feel like dying
+    - I don't want to live anymore
+    - I am done living my life
+    - I want to end it all. End my life
+    - I want to commit suicide
+    - I don't see the point of living
+    - The world will be a better place without me
+    - I think I should leave this world
+    - I think I should die
+    - I want to kill myself
+    - I want to poison myself
+    - I want to hang myself
+    - I feel utterly sad and want to die
+    - I am having strong thoughts about suicide
+    - Goodbye world
+    - i want to die
+- intent: suicide_reason
+  examples: |
+    - I feel like nobody loves me
+    - I am extremely lonely
+    - I have nobody to talk to
+    - I have been betrayed
+    - I hate everyone
+    - I dislike everyone
+    - I had a breakup
+    - I failed my exams
+    - I suck
+    - I can't control my life
+    - My parents are toxic
+    - I have no friends
+- intent: suicide_confirm
+  examples: |
+    - Yes, first I think nobody even cares for me. I am all alone always. I can just cry all day.
+    - The mental pressure on me is too high. I don't think I can handle it anymore.
+    - I don't see the point of living a life where we accomplish nothing
+    - It has been too much. i am fed up of everything and everyone. I just want it all to end.
+    - I will never be able to make my parents happy.
+    - My best friend doesnot care about me anymore.
+    - I wish I had better parents. The toxicity makes me want to not exist.
+    - I think I will achieve happiness by just giving up.
+    - I am giving up on life because I will never accomplish anything.
+    - yes what is the point to survive is there is no love
+- intent: suicide_false_alert
+  examples: |
+    - No, I can't die right now
+    - No I wish to live
+    - No, I wont die
+    - No I will live
+- intent: failed_exams
+  examples: |
+    - I failed my exams I feel like a loser
+    - I failed my exams
+    - I failed exams
+    - I failed
+    - I failed my interview
+    - I couldn't pass in my exams
+    - I didn't pass in my exams
+    - I failed horribly in exams
+    - I sucked at my exam
+- intent: obesity
+  examples: |
+    - I am not comfortable with the shape of my body
+    - I feel ashamed that I am fat
+    - I feel humiliated when people call me fat
+    - people laugh looking at the size of my body
+    - i am uncomfortable wearing clothes that I like because of my body
+    - people make fun of my body because i am fat
+    - being fat makes me feel sad 
+    - i am jealous of people who are fit and fine
+    - I am fat and have no confidence
+    - People tease me for being fat
+    - I am not able to reduce my weight
+    - People mock me for my weight
+    - People make fun of my weight
+    - I am not comfortable with my weight
+    - I hate when people comment in my weight
+- intent: obesity_okay
+  examples: |
+    - Yes I feel okay with my body
+    - yes I feel fine of my weight
+    - yes I am comfortable with my body
+    - yes I feel okay with my weight
+    - yes I like my weight
+    - yes I feel like I look fine the way that I am   
+- intent: obesity_not_okay
+  examples: |
+    - no I dont feel okay with my body
+    - no I dont feel fine of my weight
+    - no I feel like I should reduce it
+    - no I feel dont feel okay with my weight
+    - no I am too obsese in my opinion
+    - no I am not fine the way i look currently   
+- intent: imposter_syndrome
+  examples: |
+    - I feel like an imposter
+    - I feel like I am a fraud
+    - I got the job because of pure luck
+    - I have imposter syndrome
+    - I find it hard to accept praise
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
