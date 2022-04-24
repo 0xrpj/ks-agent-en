@@ -1,0 +1,85 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+
+- story: suicide 1
+  steps:
+   - intent: suicide_intention
+   - action: utter_suicide_inquire_1
+   - intent: suicide_reason
+   - action: utter_suicide_inquire_2
+   - or:
+     - intent: suicide_confirm
+     - intent: affirm
+   - action: utter_suicide_help_talk_1
+   - action: utter_suicide_helplines
+
+- story: suicide 2
+  steps:
+   - intent: suicide_intention
+   - action: utter_suicide_inquire_1
+   - intent: suicide_reason
+   - action: utter_suicide_inquire_2
+   - intent: suicide_false_alert
+   - action: utter_goodbye
+
+- story: failed exam 1
+  steps:
+   - intent: failed_exams
+   - action: utter_failed_exam_help
+   - intent: affirm_people
+   - action: utter_failed_exam_people_yes
+   - action: utter_recommend_song
+   - action: utter_failed_exam_help_tips
+
+- story: failed exam 2
+  steps:
+   - intent: failed_exams
+   - action: utter_failed_exam_help
+   - intent: deny_people
+   - action: utter_failed_exam_people_no
+   - action: utter_failed_exam_help_tips
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: suicide_intention
+  - action: utter_suicide_inquire_1
+  - intent: suicide_reason
+  - action: utter_suicide_inquire_2
+
+- story: obesity path 1
+  steps:
+  - intent: obesity
+  - action: utter_obesity_help_ask
+  - intent: obesity_okay
+  - action: utter_obesity_okay
+  - action: utter_obesity_okay_quote
+
+- story: obesity path 2
+  steps:
+  - intent: obesity
+  - action: utter_obesity_help_ask
+  - intent: obesity_not_okay
+  - action: utter_obesity_not_okay
+
+- story: imposter syndrome path
+  steps:
+  - intent: imposter_syndrome
+  - action: utter_imposter_syndrome_help
+
