@@ -22,6 +22,7 @@ intents:
   - obesity_okay
   - obesity_not_okay
   - imposter_syndrome
+  - song_recommendation
 responses:
   utter_greet: 
     - text: Hiiiii! How are you?
@@ -33,7 +34,7 @@ responses:
     - text: 'Sharing heals things. Can you tell me the reason that you are sad? I really want to help. '
     - text: That sucks to hear. Any chance that you would want to share? I'd like to listen to understand why you are feeling that way.
   utter_happy: 
-    - text: This is nice to hear! I am happy for you. 🥰 \n You can interact and comfort other people through posts. Afterall, happiness increases when shared.
+    - text: This is nice to hear! I am happy for you. 🥰 You can interact and comfort other people through posts. Afterall, happiness increases when shared.
   utter_goodbye: 
     - text: Goodbye! Have a great time ahead!
   utter_iamabot: 
@@ -57,7 +58,7 @@ responses:
     - text: https://youtu.be/d-diB65scQU
     - text: https://youtu.be/ZbZSe6N_BXs
   utter_failed_exam_help_tips: 
-    - text: Here is what you can do:\nAccept the reason why you failed.\nLearn from what you did wrong.\nEliminate toxic people from your life.\nStart taking action & stop day dreaming.
+    - text: Here is what you can do:Accept the reason why you failed. Learn from what you did wrong.Eliminate toxic people from your life. Start taking action & stop day dreaming.
   utter_obesity_help_ask: 
     - text: Do you feel like you should work on reducing your weight or do you feel line with however you look?
   utter_obesity_okay: 
