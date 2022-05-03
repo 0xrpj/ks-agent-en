@@ -72,7 +72,9 @@ nlu:
     - I am going to save the world
     - super stoked
     - extremely good
+    - happy as alwayss
     - so so perfect
+    - I am happyyy
     - so good
     - so perfect
 - intent: mood_unhappy
@@ -122,11 +124,13 @@ nlu:
     - I had a breakup
     - I suck
     - I can't control my life
+    - i dont know. i feel like i am a burden
     - My parents are toxic
     - I have no friends
 - intent: suicide_confirm
   examples: |
     - Yes, first I think nobody even cares for me. I am all alone always. I can just cry all day.
+    - yes i think i had better parents
     - The mental pressure on me is too high. I don't think I can handle it anymore.
     - I don't see the point of living a life where we accomplish nothing
     - It has been too much. i am fed up of everything and everyone. I just want it all to end.
@@ -178,21 +182,32 @@ nlu:
     - yes I feel okay with my weight
     - yes I like my weight
     - yes I feel like I look fine the way that I am   
+    - i feel like I am okay with present
+    - i am totally okay with how I look
+    - i am proud of how I look
 - intent: obesity_not_okay
   examples: |
     - no I dont feel okay with my body
     - no I dont feel fine of my weight
     - no I feel like I should reduce it
-    - no I feel dont feel okay with my weight
+    - no I dont feel okay with my weight
     - no I am too obsese in my opinion
     - no I am not fine the way i look currently   
 - intent: imposter_syndrome
   examples: |
     - I feel like an imposter
+    - i feel like i dont deserve the position that i have
     - I feel like I am a fraud
     - I got the job because of pure luck
     - I have imposter syndrome
     - I find it hard to accept praise
+- intent: song_recommendation
+  examples: |
+    - Recommend me a song.
+    - I would like to hear some songs.
+    - Can you recommend me some english songs?
+    - I would love some song recommendations.
+    - Song recommendation please
 - intent: bot_challenge
   examples: |
     - are you a bot?
