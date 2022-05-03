@@ -35,7 +35,7 @@ stories:
    - intent: suicide_reason
    - action: utter_suicide_inquire_2
    - intent: suicide_false_alert
-   - action: utter_goodbye
+   - action: utter_suicide_helplines
 
 - story: failed exam 1
   steps:
@@ -82,4 +82,9 @@ stories:
   steps:
   - intent: imposter_syndrome
   - action: utter_imposter_syndrome_help
+
+- story: song recommendation path
+  steps:
+  - intent: song_recommendation
+  - action: utter_recommend_song
 
